@@ -93,3 +93,10 @@ let maskNotations = mask.generated.notations.map { generated in
 self.maskInputLisnter.customNotations = maskNotations
 self.maskInputLisnter.primaryMaskFormat = mask.generated.mask
 ```
+
+## Как установить
+
+CocoaPods:
+
+```
+pod 'MaskInterpreter', :git => 'https://github.com/surfstudio/NodeKit', :tag => '1.0.0'
