@@ -12,6 +12,6 @@ jobs:
     - name: build
       run: xcodebuild build
     - name: test
-      run: xcodebuild -scheme MaskInterpreterTests -sdk iphonesimulator -enableCodeCoverage YES -destination 'platform=iOS Simulator,name=iPhone 5s,OS=12.2' build test | xcpretty -c
+      run: xcodebuild -scheme MaskInterpreter -sdk iphonesimulator -enableCodeCoverage YES -destination 'platform=iOS Simulator,name=iPhone 5s,OS=12.2' test
     - name: codecov
       run: bash <(curl -s https://codecov.io/bash) -t 25ec5d56-bf3f-41ff-9959-74fbb4d22102
