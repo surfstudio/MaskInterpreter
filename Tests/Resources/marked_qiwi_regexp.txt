@@ -1,0 +1,3 @@
+<!^[0-9a-zA-Zа-яА-ЯёЁ_]+${0,100}>@RSS OOSS CS(0) SLS CS(9) CS(a) SLS CS(z) CS(A) SLS CS(Z) CS(а) SLS CS(я) CS(А) SLS CS(Я) CS(ё) CS(Ё) CS(_) OOES RS(+) RM(0,100) RES
+<!^.*\\d+[0-9.]*${10}>@RSS CS(.) RS(*) SS(\d) RS(+) OOSS CS(0) SLS CS(9) CS(.) OOES RS(*) RM(10) RES
+<!^[\\s\/\-]+${1,70}>@RSS OOSS SS(\s) CS(\) CS(/) CS(\) CS(-) OOES RS(+) RM(1,70) RES
