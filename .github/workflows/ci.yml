@@ -11,3 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: build
       run: xcodebuild build
+    - name: test
+      run: xcodebuild test -scheme MaskInterpreterTests -sdk iphonesimulator -enableCodeCoverage YES -destination 'platform=iOS Simulator,name=iPhone 5s,OS=12.2' | xcpretty -c%
