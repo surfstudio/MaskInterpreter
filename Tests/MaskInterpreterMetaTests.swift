@@ -15,7 +15,7 @@ public class MaskInterpreterMetaTests: XCTestCase {
 
         // Act
 
-        let mask = try! interpreter.intreprete(rawMask: string)
+        let mask = try! interpreter.intrepret(rawMask: string)
 
         // Assert
 
@@ -33,7 +33,7 @@ public class MaskInterpreterMetaTests: XCTestCase {
 
         // Act
 
-        let mask = try! interpreter.intreprete(rawMask: string)
+        let mask = try! interpreter.intrepret(rawMask: string)
 
         // Assert
 
@@ -50,7 +50,7 @@ public class MaskInterpreterMetaTests: XCTestCase {
 
         // Act
 
-        let mask = try! interpreter.intreprete(rawMask: string)
+        let mask = try! interpreter.intrepret(rawMask: string)
 
         // Assert
 
@@ -66,7 +66,7 @@ public class MaskInterpreterMetaTests: XCTestCase {
 
         // Act
 
-        let mask = try! interpreter.intreprete(rawMask: string)
+        let mask = try! interpreter.intrepret(rawMask: string)
 
         // Assert
 
@@ -82,7 +82,7 @@ public class MaskInterpreterMetaTests: XCTestCase {
 
         // Act
 
-        let mask = try! interpreter.intreprete(rawMask: string)
+        let mask = try! interpreter.intrepret(rawMask: string)
 
         // Assert
 
@@ -98,7 +98,7 @@ public class MaskInterpreterMetaTests: XCTestCase {
 
         // Act
 
-        let mask = try! interpreter.intreprete(rawMask: string)
+        let mask = try! interpreter.intrepret(rawMask: string)
 
         // Assert
 
