@@ -19,7 +19,7 @@ public final class MaskInterpreter {
 
     public init() { }
 
-    public func intreprete(rawMask: String) throws -> InterpretedMask {
+    public func intrepret(rawMask: String) throws -> InterpretedMask {
         let maskNode = try builder.parse(mask: rawMask)
         let mask = try self.maskGenerator.generate(from: maskNode)
         let type = self.getMeta(from: mask)
