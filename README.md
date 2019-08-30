@@ -84,7 +84,7 @@ maskExpression = (ConstantSymbol | regexpExpression)+
 
 let rawMask = "<!^\\d+${1,9}>/<!^\\d+${4}>"
 
-guard let mask = MaskInterpreter().interprete(rawMask: rawMask) else { return }
+guard let mask = MaskInterpreter().interpret(rawMask: rawMask) else { return }
 
 let maskNotations = mask.generated.notations.map { generated in
   return Notation(character: generated.nameSymbol, characterSet: generated.set, isOptional: generated.isOptional)
