@@ -25,7 +25,7 @@ public class MaskInterpreterTests: XCTestCase {
 
         // Act - Assert
 
-        XCTAssertNoThrow(try regexps.map(intrepreter.intreprete))
+        XCTAssertNoThrow(try regexps.map(intrepreter.intrepret))
     }
 
     /// Проверяет, что все размеченые маски разбираются правильно
@@ -58,7 +58,7 @@ public class MaskInterpreterTests: XCTestCase {
 
         // Act
 
-        let values = try! regexps.map(intrepreter.intreprete)
+        let values = try! regexps.map(intrepreter.intrepret)
 
         // Assert
 
