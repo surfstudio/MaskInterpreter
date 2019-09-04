@@ -99,4 +99,4 @@ self.maskInputLisnter.primaryMaskFormat = mask.generated.mask
 CocoaPods:
 
 ```
-pod 'MaskInterpreter', :git => 'https://github.com/surfstudio/NodeKit', :tag => '1.0.0'
+pod 'MaskInterpreter', :git => 'https://github.com/surfstudio/MaskInterpreter', :tag => '1.0.0'
