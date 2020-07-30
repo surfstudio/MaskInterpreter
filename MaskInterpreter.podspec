@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.source           = { :git => 'https://github.com/surfstudio/MaskInterpreter.git', :tag => spec.version }
     spec.swift_version    = '5.0'
 
-    spec.ios.deployment_target = '12.2'
+    spec.ios.deployment_target = '11.0'
 
     spec.source_files = 'Sources/**/*.swift'
     spec.framework    = 'Foundation'
